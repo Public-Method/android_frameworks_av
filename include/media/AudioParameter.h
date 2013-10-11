@@ -53,9 +53,6 @@ public:
     static const char * const keyVoipCheck;
     static const char * const keyFluenceType;
     static const char * const keyHandleA2dpDevice;
-#ifdef STE_AUDIO
-    static const char *keySinkLatency;
-#endif
 
     String8 toString();
 
